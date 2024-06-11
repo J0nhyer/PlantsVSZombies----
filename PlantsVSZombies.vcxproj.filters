@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\Plants">
+      <UniqueIdentifier>{8312b8ea-6cc1-4b32-8b70-522bd4788392}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Zombies">
+      <UniqueIdentifier>{a3f71e39-13ee-4477-95a9-c2d0897c5e79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Tools">
+      <UniqueIdentifier>{483e0748-19da-4379-8cc3-8a8936deae9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Settings">
+      <UniqueIdentifier>{712e8b65-ef18-4e5f-8927-fdf13833dbc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Zombies">
+      <UniqueIdentifier>{16aff43c-c28f-4c71-8fc2-386507e71777}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Plants">
+      <UniqueIdentifier>{d8bc6a96-8b6f-4818-88a5-201d7be08e8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Settings">
+      <UniqueIdentifier>{4fc03109-ea72-4240-a34e-4e5803e5ccd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Controller">
+      <UniqueIdentifier>{eeae2b07-51b0-4381-8920-64daeaa7b937}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Controller">
+      <UniqueIdentifier>{98d41349-b850-46cf-b875-e54bf9f23d77}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Plants.h">
+      <Filter>头文件\Plants</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>头文件\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="Zombies.h">
+      <Filter>头文件\Zombies</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>头文件\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Normal_Zombie.h">
+      <Filter>头文件\Zombies</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Plants.cpp">
+      <Filter>源文件\Plants</Filter>
+    </ClCompile>
+    <ClCompile Include="Settings.cpp">
+      <Filter>源文件\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="Zombies.cpp">
+      <Filter>源文件\Zombies</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>源文件\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\EveryThing\EveryThing\Sources\Sources\图片\图片\植物大战僵尸-完整素材\Tools.cpp">
+      <Filter>源文件\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Normal_Zombie.cpp">
+      <Filter>源文件\Zombies</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\EveryThing\EveryThing\Sources\Sources\图片\图片\植物大战僵尸-完整素材\res\Adventure_0.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\EveryThing\EveryThing\Sources\Sources\图片\图片\植物大战僵尸-完整素材\res\Adventure_1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\EveryThing\EveryThing\Sources\Sources\图片\图片\植物大战僵尸-完整素材\res\bar.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\EveryThing\EveryThing\Sources\Sources\图片\图片\植物大战僵尸-完整素材\res\bar2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\EveryThing\EveryThing\Sources\Sources\图片\图片\植物大战僵尸-完整素材\res\bar3.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\EveryThing\EveryThing\Sources\Sources\图片\图片\植物大战僵尸-完整素材\res\bar4.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\EveryThing\EveryThing\Sources\Sources\图片\图片\植物大战僵尸-完整素材\res\bar5.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\EveryThing\EveryThing\Sources\Sources\图片\图片\植物大战僵尸-完整素材\res\bg.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\EveryThing\EveryThing\Sources\Sources\图片\图片\植物大战僵尸-完整素材\res\fail2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\EveryThing\EveryThing\Sources\Sources\图片\图片\植物大战僵尸-完整素材\res\gameFail.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\EveryThing\EveryThing\Sources\Sources\图片\图片\植物大战僵尸-完整素材\res\gameWin.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\EveryThing\EveryThing\Sources\Sources\图片\图片\植物大战僵尸-完整素材\res\menu.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\EveryThing\EveryThing\Sources\Sources\图片\图片\植物大战僵尸-完整素材\res\menu1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\EveryThing\EveryThing\Sources\Sources\图片\图片\植物大战僵尸-完整素材\res\menu2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\EveryThing\EveryThing\Sources\Sources\图片\图片\植物大战僵尸-完整素材\res\win.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\EveryThing\EveryThing\Sources\Sources\图片\图片\植物大战僵尸-完整素材\res\win2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\EveryThing\EveryThing\Sources\Sources\图片\图片\植物大战僵尸-完整素材\res\Zombie男仆-植物大战僵尸_爱给网_aigei_com.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\..\..\EveryThing\EveryThing\Sources\Sources\图片\图片\植物大战僵尸-完整素材\res\bg.MP3">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="..\..\..\EveryThing\EveryThing\Sources\Sources\图片\图片\植物大战僵尸-完整素材\res\lose.mp3">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="..\..\..\EveryThing\EveryThing\Sources\Sources\图片\图片\植物大战僵尸-完整素材\res\sunshine.mp3">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="..\..\..\EveryThing\EveryThing\Sources\Sources\图片\图片\植物大战僵尸-完整素材\res\win.mp3">
+      <Filter>资源文件</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\EveryThing\EveryThing\Sources\Sources\图片\图片\植物大战僵尸-完整素材\res\补充素材.zip">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+</Project>
