@@ -67,51 +67,51 @@ void Settings::LOADImage()
         sprintf_s(FileName, sizeof(FileName), "res/zhiwu/1/%d.png", i);
         loadimage(Plants[1][0] + i - 1, FileName);
     }
-    // ≥»Àª®
+    // ≥»Àª® 2
     sprintf_s(FileName, sizeof(FileName), "res/Plants/Chomper/0.gif");
     loadimage(Plants[2][0], FileName);
-    //”£Ã“’®µØ
+    //”£Ã“’®µØ 3
     sprintf_s(FileName, sizeof(FileName), "res/Plants/CherryBomb/0.gif");
     loadimage(Plants[3][0], FileName);
-    //˜»ªÛπΩ
+    //˜»ªÛπΩ 4
     sprintf_s(FileName, sizeof(FileName), "res/Plants/HypnoShroom/0.gif");
     loadimage(Plants[4][0], FileName);
-    //∫Æ±˘πΩ
+    //∫Æ±˘πΩ 5
     sprintf_s(FileName, sizeof(FileName), "res/Plants/IceShroom/0.gif");
     loadimage(Plants[5][0], FileName);
-    //ª±¨¿±Ω∑
+    //ª±¨¿±Ω∑ 6
     sprintf_s(FileName, sizeof(FileName), "res/Plants/Jalapeno/0.gif");
     loadimage(Plants[6][0], FileName);
-    //Õ¡∂π¿◊
+    //Õ¡∂π¿◊ 7
     sprintf_s(FileName, sizeof(FileName), "res/Plants/PotatoMine/0.gif");
     loadimage(&Plants[7][0][1], FileName);
     sprintf_s(FileName, sizeof(FileName), "res/Plants/PotatoMine/1.gif");
     loadimage(&Plants[7][0][0], FileName);
-    //–°≈ÁπΩ
+    //–°≈ÁπΩ 8
     sprintf_s(FileName, sizeof(FileName), "res/Plants/PuffShroom/0.gif");
     loadimage(Plants[8][0], FileName);
-    //À´∑¢…‰ ÷
+    //À´∑¢…‰ ÷ 9
     sprintf_s(FileName, sizeof(FileName), "res/Plants/Repeater/0.gif");
     loadimage(Plants[9][0], FileName);
-    //µ®–°πΩ
+    //µ®–°πΩ 10
     sprintf_s(FileName, sizeof(FileName), "res/Plants/ScaredyShroom/0.gif");
     loadimage(Plants[10][0], FileName);
-    //∫Æ±˘…‰ ÷
+    //∫Æ±˘…‰ ÷ 11
     sprintf_s(FileName, sizeof(FileName), "res/Plants/SnowPea/0.gif");
     loadimage(Plants[11][0], FileName);
-    //µÿ¥Ã
+    //µÿ¥Ã 12
     sprintf_s(FileName, sizeof(FileName), "res/Plants/Spikeweed/1.png");
     loadimage(Plants[12][0], FileName);
-    //Œ—πœ
+    //Œ—πœ 13
     sprintf_s(FileName, sizeof(FileName), "res/Plants/Squash/2.jpg");
     loadimage(Plants[13][0], FileName);
-    //—Ùπ‚πΩ
+    //—Ùπ‚πΩ 14
     sprintf_s(FileName, sizeof(FileName), "res/Plants/SunShroom/0.gif");
     loadimage(Plants[14][0], FileName);
-    //»˝∑¢…‰ ÷
+    //»˝∑¢…‰ ÷ 15
     sprintf_s(FileName, sizeof(FileName), "res/Plants/Threepeater/0.gif");
     loadimage(Plants[15][0], FileName);
-    //¿ ¿ 
+    //¿ ¿  16
     sprintf_s(FileName, sizeof(FileName), "res/Plants/WallNut/0.gif");
     loadimage(Plants[16][0], FileName);
     //Ω© ¨“∆∂Ø  

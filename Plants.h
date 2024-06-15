@@ -10,8 +10,6 @@ public:
     {
         this->PlantCardIndex = 0;
     }
-    
-    void PlantAttack(Settings&);
 
     int x, y;
     int row, col;
@@ -21,7 +19,6 @@ public:
     int damagespeed; //攻击速度
     int damagerange; //攻击距离(格数)
     int PlantID; //植物ID
-    int timer; //计时器
     int PlantCardIndex;//植物卡片是选的1-8张的第i-1张
 };
 
@@ -33,10 +30,9 @@ public:
         this->life = 500;
         this->damage = 100;
         this->cost = 100;
-        this->damagespeed = 2000;
+        this->damagespeed = 50;
         this->damagerange = 6;
         this->PlantID = 0;
-        this->timer = 0;
     }
 
 };
@@ -51,9 +47,7 @@ public:
         this->damagespeed = 20000;
         this->damagerange = -1;
         this->PlantID = 1;
-        this->timer = 0;
     }
-
 };
 
 #endif // !PLANTS_H
